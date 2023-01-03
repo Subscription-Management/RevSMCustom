@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+
+    <types>
+        <members>RevSMInvoiceDateCalculator</members>
+        <members>RevSMInvoiceAPIHelper</members>
+        <members>RevSMInvoiceBatch</members>
+        <name>ApexClass</name>
+    </types>
+
+    <types>
+        <members>OrderItem.revsm_BillingTerm__c</members>
+        <members>OrderItem.revsm_BillingTermUnit__c</members>
+        <members>OrderItem.revsm_BillThroughDate__c</members>
+        <members>OrderItem.revsm_IsCustomInvoice__c</members>
+        <name>CustomField</name>
+    </types>
+
+    <types>
+        <members>RevSMNC</members>
+        <name>NamedCredential</name>
+    </types>
+
+    <types>
+        <members>RevSMAP</members>
+        <name>AuthProvider</name>
+    </types>
+
+    <version>56.0</version>
+</Package>
